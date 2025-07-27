@@ -30,7 +30,7 @@ export const siteConfig: SiteConfig = {
 		depth: 2, // Maximum heading depth to show in the table, from 1 to 3
 	},
 	favicon: [
-		  Leave this array empty to use the default favicon
+		 // Leave this array empty to use the default favicon
 	        {
 		   src: 'https://q2.qlogo.cn/headimg_dl?dst_uin=3655437054&spec=5',    // Path of the favicon, relative to the /public directory
 		   theme: 'light',              // (Optional) Either 'light' or 'dark', set only if you have different favicons for light and dark mode
