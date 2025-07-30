@@ -2,7 +2,7 @@
 title: edgeone加速worker
 published: 2025-07-29
 description: '如何使用edgeone加速cf worker'
-image: 'https://r2-eo.20120720.xyz/aluona.jpg'
+image: 'https://fuwari.cn-nb1.rains3.com/aluona.jpg'
 tags: [cloudflare,edgeone]
 category: 'tech'
 draft: false 

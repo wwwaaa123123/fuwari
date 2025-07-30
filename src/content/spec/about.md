@@ -1,12 +1,11 @@
 # About
 初中生一位
 
-##
-联系我？
+##联系我？
 
-[微信](https://r2-eo.20120720.xyz/qrwechat.png)
+[微信](https://fuwari.cn-nb1.rains3.com/qrwechat.png)
 
-[QQ](https://r2-eo.20120720.xyz/qrqq.png)
+[QQ](https://fuwari.cn-nb1.rains3.com/qrqq.png)
 
 邮箱：i@mcxclr.top
 
