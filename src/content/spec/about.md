@@ -1,9 +1,12 @@
 # About
-初中生
+初中生一位
 
-微信：wwwaaa123122
+##
+联系我？
 
-QQ：3385016019
+[微信](https://images.20120720.xyz/mmqrcode1753845256063.png)
+
+[QQ](https://images.20120720.xyz/Image_1753845643749.png)
 
 邮箱：i@mcxclr.top
 
@@ -11,4 +14,3 @@ QQ：3385016019
 
 [telegram](https://t.me/wwwaaa123122)
 
-::github{repo="wwwaaa123122/daohang"}
