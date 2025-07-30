@@ -1,7 +1,7 @@
 # About
 初中生一位
 
-##联系我？
+## 联系我？
 
 [微信](https://fuwari.cn-nb1.rains3.com/qrwechat.png)
 
