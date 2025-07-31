@@ -8,8 +8,8 @@ import type {
 import { LinkPreset } from "./types/config";
 
 export const siteConfig: SiteConfig = {
-	title: "星辰旅人的vlog",
-	subtitle: "个人日常",
+	title: "枫的vlog",
+	subtitle: "日常",
 	lang: "zh_CN", // 'en', 'zh_CN', 'zh_TW', 'ja', 'ko', 'es', 'th', 'vi'
 	themeColor: {
 		hue: 250, // Default hue for the theme color, from 0 to 360. e.g. red: 0, teal: 200, cyan: 250, pink: 345
@@ -17,7 +17,7 @@ export const siteConfig: SiteConfig = {
 	},
 	banner: {
 		enable: false,
-		src: "assets/images/demo-banner.png", // Relative to the /src directory. Relative to the /public directory if it starts with '/'
+		src: "assets/images/demo-banner.jpg", // Relative to the /src directory. Relative to the /public directory if it starts with '/'
 		position: "center", // Equivalent to object-position, only supports 'top', 'center', 'bottom'. 'center' by default
 		credit: {
 			enable: false, // Display the credit text of the banner image
@@ -30,12 +30,12 @@ export const siteConfig: SiteConfig = {
 		depth: 2, // Maximum heading depth to show in the table, from 1 to 3
 	},
 	favicon: [
-		 // Leave this array empty to use the default favicon
-	        {
-		   src: 'https://q2.qlogo.cn/headimg_dl?dst_uin=3655437054&spec=5',    // Path of the favicon, relative to the /public directory
-		   theme: 'light',              // (Optional) Either 'light' or 'dark', set only if you have different favicons for light and dark mode
-		   sizes: '128×128',              // (Optional) Size of the favicon, set only if you have favicons of different sizes
-		}
+		// Leave this array empty to use the default favicon
+		// {
+		//   src: '/favicon/icon.jpg',    // Path of the favicon, relative to the /public directory
+		//   theme: 'light',              // (Optional) Either 'light' or 'dark', set only if you have different favicons for light and dark mode
+		//   sizes: '32x32',              // (Optional) Size of the favicon, set only if you have favicons of different sizes
+		// }
 	],
 };
 
@@ -45,29 +45,34 @@ export const navBarConfig: NavBarConfig = {
 		LinkPreset.Archive,
 		LinkPreset.About,
 		{
-			name: "GitHub",
-			url: "https://github.com/wwwaaa123122", // Internal links should not include the base path, as it is automatically added
+			name: "同款获取",
+			url: "https://github.com/saicaca/fuwari", // Internal links should not include the base path, as it is automatically added
 			external: true, // Show an external link icon and will open in a new tab
 		},
 	],
 };
 
 export const profileConfig: ProfileConfig = {
-	avatar: "https://q2.qlogo.cn/headimg_dl?dst_uin=3655437054&spec=5", // Relative to the /src directory. Relative to the /public directory if it starts with '/'
-	name: "星辰旅人",
-	bio: "Protect What You Love./爱你所爱！",
+	avatar: "assets/images/demo-avatar.jpg", // Relative to the /src directory. Relative to the /public directory if it starts with '/'
+	name: "枫",
+	bio: "114514",
 	links: [
 		{
-			name: "x",
-			icon: "fa6-brands:twitter", // Visit https://icones.js.org/ for icon codes
+			name: "qq",
+			icon: "fa6-brands:qq", // Visit https://icones.js.org/ for icon codes
 			// You will need to install the corresponding icon set if it's not already included
 			// `pnpm add @iconify-json/<icon-set-name>`
-			url: "https://x.com/wwwaaa123122",
+			url: "http://wpa.qq.com/msgrd?v=3&uin=241962913&site=qq&menu=yes",
+		},
+		{
+			name: "robot",
+			icon: "material-symbols:robot-2",
+			url: "https://ai.wby0603.xyz",
 		},
 		{
 			name: "GitHub",
 			icon: "fa6-brands:github",
-			url: "https://github.com/wwwaaa123122",
+			url: "https://github.com",
 		},
 	],
 };
